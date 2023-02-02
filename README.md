@@ -1,29 +1,33 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Humans plan for the near future to walk economically on uneven terrain
+Osman Darici, Arthur D. Kuo
+Faculty of Kinesiology and Biomedical Engineering Program, University of Calgary, Calgary, Alberta, Canada
+
+Published in The Proceedings of the National Academy of Sciences, 2023
+
+
 
 ### What is this repository for? ###
+This repository is for comparing Human and model data and run Bayesian statistics.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### How do I run? ###
 
-### How do I get set up? ###
+There is just one .m file to be run:bayestestsunevenPNAS
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+We recommend running it cell by cell.
 
-### Contribution guidelines ###
+The .m file basically gets the 8 terrains from the human and model structures first
 
-* Writing tests
-* Code review
-* Other guidelines
+Then scales them, and then runs the Bayesian stats. 
 
-### Who do I talk to? ###
+Then using all speed data of the model and humans it finds the correlation coeffiecnts
 
-* Repo owner or admin
-* Other community or team contact
+Finally, it also get the model data of found by model predictive control and calculates again the correlation coefficients and plots as a funtion of horizon length.
+
+You can select different model data to compare it with human data in the second cell using the flags:
+optimalSolutions = 1;
+constantTimeSolutions = 0;
+noAnticipationSolutions = 0;
+
+
