@@ -13,11 +13,11 @@ This repository is for comparing Human and model data and run Bayesian statistic
 
 ### How do I run? ###
 
-There is just one .m file to be run:bayestestsunevenPNAS
+There are only two .m files to be run: bayestestsunevenPNAS and plot_HumanModel
 
-We recommend running it cell by cell.
+We recommend running bayestestsunevenPNAS.m cell by cell.
 
-The .m file basically gets the 8 terrains from the human and model structures first
+This .m file basically gets the 8 terrains from the human and model structures first
 
 Then scales them, and then runs the Bayesian stats. 
 
@@ -31,3 +31,4 @@ constantTimeSolutions = 0;
 noAnticipationSolutions = 0;
 
 
+plot_HumanModel.m is simple and can be run to plot the human and model data for all terrains.
