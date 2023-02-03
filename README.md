@@ -9,7 +9,7 @@ Published in The Proceedings of the National Academy of Sciences, 2023
 
 
 ### What is this repository for? ###
-This repository is for comparing Human and model data and run Bayesian statistics.
+This repository is for comparing Human and model data and running Bayesian statistics.
 
 ### How do I run? ###
 
