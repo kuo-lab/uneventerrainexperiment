@@ -33,4 +33,4 @@ plot_HumanModel.m is simple and can be run to plot the human and model data for 
 
 Data are stored in .mat format, which is a Matlab data file equivalent to HDF5.
 
-Code to perform optimization and simulation is in a [separate repository](https://github.com/kuo-lab/simplelocomotionmodel/src/uneventerrain.ipynb). An overview of the model and data is in https://github.com/kuo-lab/simplelocomotionmodel.
+Code to perform optimization and simulation is in a [separate repository](https://github.com/kuo-lab/simplelocomotionmodel/src/uneventerrain). An overview of the model and data is in https://github.com/kuo-lab/simplelocomotionmodel.
