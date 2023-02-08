@@ -6,20 +6,18 @@ Faculty of Kinesiology and Biomedical Engineering Program, University of Calgary
 
 Published in The Proceedings of the National Academy of Sciences, 2023
 
-
-
 ### What is this repository for? ###
-This repository is for comparing Human and model data and running Bayesian statistics.
+This repository is for comparing Human and model data and running additional statistics.
 
 ### How do I run? ###
 
-There are only two .m files to be run: bayestestsunevenPNAS and plot_HumanModel
+There are only two .m files to be run: plot_HumanModel and extratestsuneven. 
 
-We recommend running bayestestsunevenPNAS.m cell by cell.
+We recommend running extratestsuneven.m cell by cell.
 
 This .m file basically gets the 8 terrains from the human and model structures first
 
-Then scales them, and then runs the Bayesian stats. 
+Then scales them, and then runs the extra stats such as Bayes factors. 
 
 Then using all speed data of the model and humans it finds the correlation coeffiecnts
 
@@ -32,3 +30,5 @@ noAnticipationSolutions = 0;
 
 
 plot_HumanModel.m is simple and can be run to plot the human and model data for all terrains.
+
+Data are stored in .mat format, which is a Matlab data file equivalent to HDF5.

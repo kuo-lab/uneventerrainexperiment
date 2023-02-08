@@ -1,4 +1,5 @@
-% Do Bayesian analysis of statistics for complex uneven terrain paper.
+% Do extra analysis of statistics for complex uneven terrain paper,
+% including Bayes factors.
 
 % Data is assumed to consist of two main arrays:
 % speedfluctuations(nconditions, nsteps, nsubjects) (trials averaged together)
@@ -328,7 +329,7 @@ ylabel('Correlation'); set(gca,'ylim', [0 0.8]);
 %[rho, pval] = corrcoef(allmodels, allhumans); onerho=rho(1,2); onepval=pval(1,2);
 %[rho, pval] = corrcoef(allmodelsraw, allhumans); onerhoraw=rho(1,2); onepvalraw=pval(1,2);
 %% MPC correlation coef.s BIG correlation
-keyboard
+
 colors = jet(7);
 clear corrMPC;
 
